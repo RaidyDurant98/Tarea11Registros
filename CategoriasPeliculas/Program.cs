@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Registros
+namespace CategoriasPeliculas
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace Registros
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UsuariosForm());
+            Application.Run(new CategoriasPeliculasForm());
         }
     }
 }
